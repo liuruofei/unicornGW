@@ -1,0 +1,120 @@
+[[[自动注册扩展缓存完成]]]
+[2020/09/15 13:14:52.3186]
+[线程：1]
+注册总用时：2.1285ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[系统日志]]]
+[2020/09/15 13:14:52.3217]
+[线程：1]
+系统启动
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/15 13:14:52.3379]
+[线程：1]
+微信扩展缓存注册总用时：0.0026ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[接口调用]]]
+[2020/09/15 13:15:45.1774]
+[线程：13]
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wxc1015c8cd72c4410&secret=513565af8309923a24c851e20b248068&js_code=111&grant_type=authorization_code
+	Result：
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: hghe.AMre- ]"}
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/15 13:17:25.4235]
+[线程：1]
+注册总用时：1.5659ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[系统日志]]]
+[2020/09/15 13:17:25.4266]
+[线程：1]
+系统启动
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/15 13:17:25.4466]
+[线程：1]
+微信扩展缓存注册总用时：0.0033ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[接口调用]]]
+[2020/09/15 13:17:41.4863]
+[线程：8]
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wxc1015c8cd72c4410&secret=513565af8309923a24c851e20b248068&js_code=111&grant_type=authorization_code
+	Result：
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: igheDfMre-oJYuXa ]"}
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/15 13:21:46.3832]
+[线程：1]
+注册总用时：1.549ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/15 13:21:46.4036]
+[线程：1]
+微信扩展缓存注册总用时：0.0031ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[系统日志]]]
+[2020/09/15 13:21:46.3857]
+[线程：1]
+系统启动
+
+[[[接口调用]]]
+[2020/09/15 13:22:02.8970]
+[线程：12]
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wxc1015c8cd72c4410&secret=513565af8309923a24c851e20b248068&js_code=111&grant_type=authorization_code
+	Result：
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: Kgheupnre-vnfQqa ]"}
+
+[[[ErrorJsonResultException]]]
+[2020/09/15 13:22:02.9456]
+[线程：12]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wxc1015c8cd72c4410&secret=513565af8309923a24c851e20b248068&js_code=111&grant_type=authorization_code
+	errcode：不合法的oauth_code
+	errmsg：invalid code, hints: [ req_id: Kgheupnre-vnfQqa ]
+
+[[[系统日志]]]
+[2020/09/15 15:52:26.9845]
+[线程：1]
+系统启动
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/15 15:52:26.9815]
+[线程：1]
+注册总用时：2.6912ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/15 15:52:27.0070]
+[线程：1]
+微信扩展缓存注册总用时：0.0029ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/15 18:23:10.2967]
+[线程：1]
+注册总用时：2.3205ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[系统日志]]]
+[2020/09/15 18:23:10.2995]
+[线程：1]
+系统启动
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/15 18:23:10.3198]
+[线程：1]
+微信扩展缓存注册总用时：0.0019ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+

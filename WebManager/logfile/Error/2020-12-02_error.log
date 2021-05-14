@@ -1,0 +1,132 @@
+2020-12-02 19:35:34,668 [38] ERROR RollingLogFileAppender [(null)] - 服务器错误：
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at WebManager.Areas.Admin.Controllers.BaseController.<>c__DisplayClass13_5.<PowerLogic>b__5(sys_menufunction x) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 182
+   at System.Collections.Generic.List`1.FindAll(Predicate`1 match)
+   at WebManager.Areas.Admin.Controllers.BaseController.<>c__DisplayClass13_4.<PowerLogic>b__4(sys_function item) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 182
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at WebManager.Areas.Admin.Controllers.BaseController.PowerLogic(ActionExecutedContext context) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 179
+   at WebManager.Areas.Admin.Controllers.BaseController.OnActionExecuted(ActionExecutedContext filterContext) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 118
+   at Microsoft.AspNetCore.Mvc.Controller.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2020-12-02 19:35:45,234 [49] ERROR RollingLogFileAppender [(null)] - 服务器错误：
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at WebManager.Areas.Admin.Controllers.BaseController.<>c__DisplayClass13_5.<PowerLogic>b__5(sys_menufunction x) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 182
+   at System.Collections.Generic.List`1.FindAll(Predicate`1 match)
+   at WebManager.Areas.Admin.Controllers.BaseController.<>c__DisplayClass13_4.<PowerLogic>b__4(sys_function item) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 182
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at WebManager.Areas.Admin.Controllers.BaseController.PowerLogic(ActionExecutedContext context) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 179
+   at WebManager.Areas.Admin.Controllers.BaseController.OnActionExecuted(ActionExecutedContext filterContext) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 118
+   at Microsoft.AspNetCore.Mvc.Controller.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2020-12-02 19:38:41,248 [9] ERROR RollingLogFileAppender [(null)] - 服务器错误：
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at WebManager.Areas.Admin.Controllers.BaseController.<>c__DisplayClass13_5.<PowerLogic>b__5(sys_menufunction x) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 182
+   at System.Collections.Generic.List`1.FindAll(Predicate`1 match)
+   at WebManager.Areas.Admin.Controllers.BaseController.<>c__DisplayClass13_4.<PowerLogic>b__4(sys_function item) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 182
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at WebManager.Areas.Admin.Controllers.BaseController.PowerLogic(ActionExecutedContext context) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 179
+   at WebManager.Areas.Admin.Controllers.BaseController.OnActionExecuted(ActionExecutedContext filterContext) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 118
+   at Microsoft.AspNetCore.Mvc.Controller.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2020-12-02 19:39:43,230 [9] ERROR RollingLogFileAppender [(null)] - 服务器错误：
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at WebManager.Areas.Admin.Controllers.BaseController.<>c__DisplayClass13_5.<PowerLogic>b__5(sys_menufunction x) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 182
+   at System.Collections.Generic.List`1.FindAll(Predicate`1 match)
+   at WebManager.Areas.Admin.Controllers.BaseController.<>c__DisplayClass13_4.<PowerLogic>b__4(sys_function item) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 182
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at WebManager.Areas.Admin.Controllers.BaseController.PowerLogic(ActionExecutedContext context) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 179
+   at WebManager.Areas.Admin.Controllers.BaseController.OnActionExecuted(ActionExecutedContext filterContext) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 118
+   at Microsoft.AspNetCore.Mvc.Controller.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2020-12-02 20:10:16,180 [80] ERROR RollingLogFileAppender [(null)] - 服务器错误：
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at WebManager.Areas.Admin.Controllers.BaseController.<>c__DisplayClass13_5.<PowerLogic>b__5(sys_menufunction x) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 182
+   at System.Collections.Generic.List`1.FindAll(Predicate`1 match)
+   at WebManager.Areas.Admin.Controllers.BaseController.<>c__DisplayClass13_4.<PowerLogic>b__4(sys_function item) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 182
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at WebManager.Areas.Admin.Controllers.BaseController.PowerLogic(ActionExecutedContext context) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 179
+   at WebManager.Areas.Admin.Controllers.BaseController.OnActionExecuted(ActionExecutedContext filterContext) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 118
+   at Microsoft.AspNetCore.Mvc.Controller.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2020-12-02 20:10:29,095 [83] ERROR RollingLogFileAppender [(null)] - 服务器错误：
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at WebManager.Areas.Admin.Controllers.BaseController.<>c__DisplayClass13_5.<PowerLogic>b__5(sys_menufunction x) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 182
+   at System.Collections.Generic.List`1.FindAll(Predicate`1 match)
+   at WebManager.Areas.Admin.Controllers.BaseController.<>c__DisplayClass13_4.<PowerLogic>b__4(sys_function item) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 182
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at WebManager.Areas.Admin.Controllers.BaseController.PowerLogic(ActionExecutedContext context) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 179
+   at WebManager.Areas.Admin.Controllers.BaseController.OnActionExecuted(ActionExecutedContext filterContext) in D:\work\YNK_YS\YS\WebManager\Areas\Admin\Controllers\BaseController.cs:line 118
+   at Microsoft.AspNetCore.Mvc.Controller.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)

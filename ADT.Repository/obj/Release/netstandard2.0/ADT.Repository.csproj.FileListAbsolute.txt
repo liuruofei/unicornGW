@@ -1,0 +1,12 @@
+D:\work\YNK_YS\YS\ADT.Repository\bin\Release\netstandard2.0\ADT.Repository.deps.json
+D:\work\YNK_YS\YS\ADT.Repository\bin\Release\netstandard2.0\ADT.Repository.dll
+D:\work\YNK_YS\YS\ADT.Repository\bin\Release\netstandard2.0\ADT.Repository.pdb
+D:\work\YNK_YS\YS\ADT.Repository\bin\Release\netstandard2.0\ADT.Models.dll
+D:\work\YNK_YS\YS\ADT.Repository\bin\Release\netstandard2.0\ADT.Models.pdb
+D:\work\YNK_YS\YS\ADT.Repository\obj\Release\netstandard2.0\ADT.Repository.csprojAssemblyReference.cache
+D:\work\YNK_YS\YS\ADT.Repository\obj\Release\netstandard2.0\ADT.Repository.AssemblyInfoInputs.cache
+D:\work\YNK_YS\YS\ADT.Repository\obj\Release\netstandard2.0\ADT.Repository.AssemblyInfo.cs
+D:\work\YNK_YS\YS\ADT.Repository\obj\Release\netstandard2.0\ADT.Repository.csproj.CoreCompileInputs.cache
+D:\work\YNK_YS\YS\ADT.Repository\obj\Release\netstandard2.0\ADT.Repository.csproj.CopyComplete
+D:\work\YNK_YS\YS\ADT.Repository\obj\Release\netstandard2.0\ADT.Repository.dll
+D:\work\YNK_YS\YS\ADT.Repository\obj\Release\netstandard2.0\ADT.Repository.pdb

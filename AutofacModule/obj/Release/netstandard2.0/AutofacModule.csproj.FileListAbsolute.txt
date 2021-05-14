@@ -1,0 +1,9 @@
+D:\work\YNK_YS\YS\AutofacModule\bin\Release\netstandard2.0\AutofacModule.deps.json
+D:\work\YNK_YS\YS\AutofacModule\bin\Release\netstandard2.0\AutofacModule.dll
+D:\work\YNK_YS\YS\AutofacModule\bin\Release\netstandard2.0\AutofacModule.pdb
+D:\work\YNK_YS\YS\AutofacModule\obj\Release\netstandard2.0\AutofacModule.csprojAssemblyReference.cache
+D:\work\YNK_YS\YS\AutofacModule\obj\Release\netstandard2.0\AutofacModule.AssemblyInfoInputs.cache
+D:\work\YNK_YS\YS\AutofacModule\obj\Release\netstandard2.0\AutofacModule.AssemblyInfo.cs
+D:\work\YNK_YS\YS\AutofacModule\obj\Release\netstandard2.0\AutofacModule.csproj.CoreCompileInputs.cache
+D:\work\YNK_YS\YS\AutofacModule\obj\Release\netstandard2.0\AutofacModule.dll
+D:\work\YNK_YS\YS\AutofacModule\obj\Release\netstandard2.0\AutofacModule.pdb

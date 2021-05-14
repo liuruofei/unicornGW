@@ -1,0 +1,654 @@
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 14:34:51.0475]
+[线程：1]
+注册总用时：1.7777ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[系统日志]]]
+[2020/09/12 14:34:51.0499]
+[线程：1]
+系统启动
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 14:34:51.0655]
+[线程：1]
+微信扩展缓存注册总用时：0.003ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[RegisterApiBind() 自动扫描程序集报告（非程序异常）：Senparc.Weixin.Cache.Memcached, Version=2.3.3.0, Culture=neutral, PublicKeyToken=null]]]
+[2020/09/12 14:34:51.5988]
+[线程：1]
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Method 'GetAllAsync' in type 'Senparc.Weixin.Cache.Memcached.MemcachedContainerCacheStrategy' from assembly 'Senparc.Weixin.Cache.Memcached, Version=2.3.3.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at Senparc.NeuChar.Register.RegisterApiBind(Boolean forceBindAgain)
+System.TypeLoadException: Method 'GetAllAsync' in type 'Senparc.Weixin.Cache.Memcached.MemcachedContainerCacheStrategy' from assembly 'Senparc.Weixin.Cache.Memcached, Version=2.3.3.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+
+[[[RegisterApiBind() 自动扫描程序集报告（非程序异常）：Senparc.CO2NET.Cache.Memcached, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null]]]
+[2020/09/12 14:34:51.6886]
+[线程：1]
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Method 'Lock' in type 'Senparc.CO2NET.Cache.Memcached.MemcachedCacheLock' from assembly 'Senparc.CO2NET.Cache.Memcached, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+Method 'BeginCacheLockAsync' in type 'Senparc.CO2NET.Cache.Memcached.MemcachedObjectCacheStrategy' from assembly 'Senparc.CO2NET.Cache.Memcached, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at Senparc.NeuChar.Register.RegisterApiBind(Boolean forceBindAgain)
+System.TypeLoadException: Method 'Lock' in type 'Senparc.CO2NET.Cache.Memcached.MemcachedCacheLock' from assembly 'Senparc.CO2NET.Cache.Memcached, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+System.TypeLoadException: Method 'BeginCacheLockAsync' in type 'Senparc.CO2NET.Cache.Memcached.MemcachedObjectCacheStrategy' from assembly 'Senparc.CO2NET.Cache.Memcached, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 14:37:32.2883]
+[线程：1]
+注册总用时：1.539ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[系统日志]]]
+[2020/09/12 14:37:32.2916]
+[线程：1]
+系统启动
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 14:37:32.3080]
+[线程：1]
+微信扩展缓存注册总用时：0.0023ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[系统日志]]]
+[2020/09/12 14:43:49.2623]
+[线程：1]
+系统启动
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 14:43:49.2791]
+[线程：1]
+微信扩展缓存注册总用时：0.0022ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 14:43:49.2596]
+[线程：1]
+注册总用时：2.2616ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[系统日志]]]
+[2020/09/12 14:52:58.3561]
+[线程：1]
+系统启动
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 14:52:58.3524]
+[线程：1]
+注册总用时：1.9256ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 14:52:58.3716]
+[线程：1]
+微信扩展缓存注册总用时：0.002ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 14:53:43.5246]
+[线程：1]
+微信扩展缓存注册总用时：0.0025ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 14:53:43.5070]
+[线程：1]
+注册总用时：1.525ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[系统日志]]]
+[2020/09/12 14:53:43.5095]
+[线程：1]
+系统启动
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 15:07:48.5508]
+[线程：1]
+微信扩展缓存注册总用时：0.002ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 15:07:48.5348]
+[线程：1]
+注册总用时：1.5875ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[系统日志]]]
+[2020/09/12 15:07:48.5371]
+[线程：1]
+系统启动
+
+[[[系统日志]]]
+[2020/09/12 15:13:05.0964]
+[线程：1]
+系统启动
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 15:13:05.0934]
+[线程：1]
+注册总用时：1.5664ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 15:13:05.1116]
+[线程：1]
+微信扩展缓存注册总用时：0.0023ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 15:15:07.0707]
+[线程：1]
+注册总用时：2.0215ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 15:15:07.0891]
+[线程：1]
+微信扩展缓存注册总用时：0.0023ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[系统日志]]]
+[2020/09/12 15:15:07.0734]
+[线程：1]
+系统启动
+
+[[[系统日志]]]
+[2020/09/12 15:22:23.3923]
+[线程：1]
+系统启动
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 15:22:23.3900]
+[线程：1]
+注册总用时：1.601ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 15:22:23.4066]
+[线程：1]
+微信扩展缓存注册总用时：0.0021ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 15:23:43.1558]
+[线程：1]
+注册总用时：2.1704ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 15:23:43.1745]
+[线程：1]
+微信扩展缓存注册总用时：0.0022ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[系统日志]]]
+[2020/09/12 15:23:43.1587]
+[线程：1]
+系统启动
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 15:25:11.8209]
+[线程：1]
+注册总用时：1.5999ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[系统日志]]]
+[2020/09/12 15:25:11.8232]
+[线程：1]
+系统启动
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 15:25:11.8372]
+[线程：1]
+微信扩展缓存注册总用时：0.0022ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 15:27:54.5536]
+[线程：1]
+微信扩展缓存注册总用时：0.0024ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 15:27:54.5313]
+[线程：1]
+注册总用时：2.5929ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[系统日志]]]
+[2020/09/12 15:27:54.5351]
+[线程：1]
+系统启动
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 15:28:26.7693]
+[线程：1]
+注册总用时：1.5866ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 15:28:26.7857]
+[线程：1]
+微信扩展缓存注册总用时：0.0017ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[系统日志]]]
+[2020/09/12 15:28:26.7716]
+[线程：1]
+系统启动
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 15:28:42.0694]
+[线程：1]
+微信扩展缓存注册总用时：0.0024ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 15:28:42.0483]
+[线程：1]
+注册总用时：1.5066ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[系统日志]]]
+[2020/09/12 15:28:42.0512]
+[线程：1]
+系统启动
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 15:31:08.3918]
+[线程：1]
+微信扩展缓存注册总用时：0.0024ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 15:31:08.3720]
+[线程：1]
+注册总用时：2.2104ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[系统日志]]]
+[2020/09/12 15:31:08.3751]
+[线程：1]
+系统启动
+
+[[[系统日志]]]
+[2020/09/12 15:38:40.3957]
+[线程：1]
+系统启动
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 15:38:40.3934]
+[线程：1]
+注册总用时：1.5333ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 15:38:40.4100]
+[线程：1]
+微信扩展缓存注册总用时：0.002ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 15:39:22.1344]
+[线程：1]
+注册总用时：2.9147ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[系统日志]]]
+[2020/09/12 15:39:22.1382]
+[线程：1]
+系统启动
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 15:39:22.1587]
+[线程：1]
+微信扩展缓存注册总用时：0.0022ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[系统日志]]]
+[2020/09/12 16:43:40.7711]
+[线程：1]
+系统启动
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 16:43:40.7687]
+[线程：1]
+注册总用时：1.5416ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 16:43:40.7865]
+[线程：1]
+微信扩展缓存注册总用时：0.0025ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[系统日志]]]
+[2020/09/12 16:45:57.0292]
+[线程：1]
+系统启动
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 16:45:57.0266]
+[线程：1]
+注册总用时：2.2178ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 16:45:57.0454]
+[线程：1]
+微信扩展缓存注册总用时：0.0023ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 16:51:33.0566]
+[线程：1]
+微信扩展缓存注册总用时：0.0023ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[系统日志]]]
+[2020/09/12 16:51:33.0421]
+[线程：1]
+系统启动
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 16:51:33.0397]
+[线程：1]
+注册总用时：1.7935ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[系统日志]]]
+[2020/09/12 16:52:47.0420]
+[线程：1]
+系统启动
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 16:52:47.0558]
+[线程：1]
+微信扩展缓存注册总用时：0.0023ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 16:52:47.0396]
+[线程：1]
+注册总用时：1.505ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 16:53:59.8324]
+[线程：1]
+微信扩展缓存注册总用时：0.0018ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 16:53:59.8150]
+[线程：1]
+注册总用时：1.5214ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[系统日志]]]
+[2020/09/12 16:53:59.8173]
+[线程：1]
+系统启动
+
+[[[系统日志]]]
+[2020/09/12 16:57:02.4681]
+[线程：1]
+系统启动
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 16:57:02.4847]
+[线程：1]
+微信扩展缓存注册总用时：0.0039ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 16:57:02.4650]
+[线程：1]
+注册总用时：1.5356ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 17:05:23.9763]
+[线程：1]
+注册总用时：1.557ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[系统日志]]]
+[2020/09/12 17:05:23.9797]
+[线程：1]
+系统启动
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 17:05:23.9987]
+[线程：1]
+微信扩展缓存注册总用时：0.0032ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 17:11:57.7553]
+[线程：1]
+注册总用时：1.4816ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[系统日志]]]
+[2020/09/12 17:11:57.7575]
+[线程：1]
+系统启动
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 17:11:57.7742]
+[线程：1]
+微信扩展缓存注册总用时：0.0031ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 17:18:37.5707]
+[线程：1]
+微信扩展缓存注册总用时：0.003ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[系统日志]]]
+[2020/09/12 17:18:37.5558]
+[线程：1]
+系统启动
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 17:18:37.5530]
+[线程：1]
+注册总用时：1.5364ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 17:33:14.3549]
+[线程：1]
+微信扩展缓存注册总用时：0.0021ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[系统日志]]]
+[2020/09/12 17:33:14.3388]
+[线程：1]
+系统启动
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 17:33:14.3364]
+[线程：1]
+注册总用时：1.5573ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[系统日志]]]
+[2020/09/12 17:35:19.6739]
+[线程：1]
+系统启动
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 17:35:19.6881]
+[线程：1]
+微信扩展缓存注册总用时：0.0023ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 17:35:19.6716]
+[线程：1]
+注册总用时：1.5279ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 17:40:51.6851]
+[线程：1]
+微信扩展缓存注册总用时：0.0026ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[系统日志]]]
+[2020/09/12 17:40:51.6704]
+[线程：1]
+系统启动
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 17:40:51.6676]
+[线程：1]
+注册总用时：1.5276ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 17:44:38.3785]
+[线程：1]
+微信扩展缓存注册总用时：0.0027ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[系统日志]]]
+[2020/09/12 17:44:38.3612]
+[线程：1]
+系统启动
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 17:44:38.3580]
+[线程：1]
+注册总用时：2.0108ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 17:47:39.5582]
+[线程：1]
+注册总用时：1.8355ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[系统日志]]]
+[2020/09/12 17:47:39.5607]
+[线程：1]
+系统启动
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 17:47:39.5754]
+[线程：1]
+微信扩展缓存注册总用时：0.0026ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 17:49:46.8185]
+[线程：1]
+微信扩展缓存注册总用时：0.002ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 17:49:46.8019]
+[线程：1]
+注册总用时：1.5203ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[系统日志]]]
+[2020/09/12 17:49:46.8045]
+[线程：1]
+系统启动
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 17:53:15.0812]
+[线程：1]
+微信扩展缓存注册总用时：0.0023ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[系统日志]]]
+[2020/09/12 17:53:15.0622]
+[线程：1]
+系统启动
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 17:53:15.0585]
+[线程：1]
+注册总用时：2.6176ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 17:54:39.6496]
+[线程：1]
+注册总用时：1.6568ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 17:54:39.6659]
+[线程：1]
+微信扩展缓存注册总用时：0.002ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[系统日志]]]
+[2020/09/12 17:54:39.6519]
+[线程：1]
+系统启动
+
+[[[微信扩展缓存注册完成]]]
+[2020/09/12 17:55:10.6643]
+[线程：1]
+微信扩展缓存注册总用时：0.0022ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[系统日志]]]
+[2020/09/12 17:55:10.6499]
+[线程：1]
+系统启动
+
+[[[自动注册扩展缓存完成]]]
+[2020/09/12 17:55:10.6475]
+[线程：1]
+注册总用时：1.6785ms
+自动扫描程序集：0个
+扩展缓存：
+

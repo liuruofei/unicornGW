@@ -1,0 +1,176 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en" id="top" class="js no-touch">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="~/assets/css/h5/base.css" media="all">
+    <link rel="stylesheet" href="~/assets/css/h5/cookiebot.css" media="all" />
+    <meta name="theme-color" content="#1f2935">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Choose your future">
+    <meta property="og:description" content="At the heart of connecting people to higher education">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>优能考</title>
+    <link type="text/css" rel="stylesheet" href="~/assets/css/h5/schemes--optional--base.css" media="all">
+    <link type="text/css" rel="stylesheet" href="~/assets/css/h5/css_504dpHvM3aWltayVrRHHql6R9WkXweNCOH5c_DfWGEo.css" media="all">
+    <link type="text/css" rel="stylesheet" href="~/assets/css/h5/owl.carousel.min.css" media="all">
+    <link type="text/css" rel="stylesheet" href="~/assets/css/h5/owl.theme.min.css" media="all">
+    <link type="text/css" rel="stylesheet" href="~/assets/css/h5/owl.transitions.min.css" media="all">
+    <link type="text/css" rel="stylesheet" href="~/assets/css/h5/css_fNhdR-iaL3E-t_UiNKqAbINQyStX8fHr_RZtODcC4hw.css" media="all">
+    <link type="text/css" rel="stylesheet" href="~/assets/css/h5/css_3tOBkZmb18hBLRyQZdKTQ0yLVqFCi5hCPOysVRa4HeQ.css" media="all">
+    <link href="~/assets/css/h5/schemes--optional--full.css" type="text/css" rel="stylesheet">
+    <link href="~/assets/css/h5/icons--optional.css" type="text/css" rel="stylesheet">
+    <link href="~/assets/css/h5/gigya.css" type="text/css" rel="stylesheet">
+    <link href="~/assets/css/h5/full.css" type="text/css" rel="stylesheet">
+    <style type="text/css" id="CookieConsentStateDisplayStyles">
+        .cookieconsent-optin-preferences, .cookieconsent-optin-statistics, .cookieconsent-optin-marketing, .cookieconsent-optin {
+            display: none;
+        }
+
+        .cookieconsent-optout-preferences, .cookieconsent-optout-statistics, .cookieconsent-optout-marketing, .cookieconsent-optout {
+            display: block;
+            display: initial;
+        }
+        .muenUl {
+            list-style: none;
+            display: flex;
+            flex-wrap:wrap;
+        }
+
+            .muenUl li {
+                flex: 1 auto;
+            }
+            .muenUl li a{
+                color:black;
+            }
+                .muenUl li a:hover {
+                    color:#752482 !important;
+                }
+        .activeA {
+            color: #752482 !important;
+        }
+    </style>
+    @RenderSection("css", required: false)
+</head>
+<body class="html front not-logged-in no-sidebars page-node page-node- page-node-333441 node-type-landing-page v4 gigyaInit-processed gigya-logged-out">
+    <div class="page-wrapper page page-has-sticky-ad grid-page-layout--01">
+        <section class="section section--upper-header global-header global-header--learners " id="section--upper-header">
+            <div>
+                <div style="width:30px;float:left"><img alt="UCAS" src="~/assets/images/younnengkaolog.png"></div>
+                <div style="float:right;width: 85%;padding-top: 5px;">
+                    <ul class="muenUl" id="muenUl">
+                        <li>
+                            <a href="/Home/Index">
+                                <span>首页</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        @RenderBody()
+        <footer class="section footer section--footer">
+            <div class="wrapper-container">
+                <div class="wrapper wrapper--padding">
+                    <nav class="footer__social-contact">
+                        <div class="footer__contact-links">
+                            <div>
+                                <img src="~/assets/images/younnengkaolog.png">
+                            </div>
+                            <div style="color:#fff;line-height: 22px;">新天地校区：上海市黄浦区马当路388号复习SOHO广场A座2601室</div>
+                            <div style="color:#fff;margin-top:16px">联系电话：18621006206</div>
+                        </div>
+                    </nav>
+                    <nav class="footer__page-links" aria-label="information links">
+                        <div class="footer__links-group">
+                            <a>雅思</a>
+                            <a>A-Level课程</a>
+                        </div>
+
+                        <div class="footer__links-group">
+                            <a>About us</a>
+                            <a>Join our team</a>
+                        </div>
+
+                        <div class="footer__links-group">
+                            <a>Glossary</a>
+                            <a>Terms and conditions</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="wrapper-container">
+                <div class="wrapper wrapper--padding">
+                    <div>Copyright © 2020 夕林（上海）教育科技有限公司 All right reserved. 沪ICP备2020029178号-1</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- js部分 -->
+    <script src="~/assets/libs/jquery/jquery-3.2.1.min.js"></script>
+    <script src="~/assets/js/template-web.js"></script>
+    <script src="~/assets/js/base.js"></script>
+    <script src="~/assets/js/httpBase.js"></script>
+    <script type="text/html" id="templateMuen">
+        {{each data item index}}
+        <li>
+            {{if item.KeyName!=null&&item.KeyName.indexOf('frist')>-1}}
+            <a href="/Home/Index" class="activeA" data-class="frist">
+                <span>{{item.CategoryName}}</span>
+            </a>
+            {{else if item.KeyName!=null&&item.KeyName.indexOf('case')>-1}}
+            <a href="/Home/CaseList" data-class="case">
+                <span>{{item.CategoryName}}</span>
+            </a>
+            {{else if item.KeyName!=null&&item.KeyName.indexOf('course')>-1}}
+            <a href="/Home/CourseList" data-class="course">
+                <span>{{item.CategoryName}}</span>
+            </a>
+            {{else if item.KeyName!=null&&item.KeyName.indexOf('alevel')>-1}}
+            <a href="/Home/ALevel" data-class="alevel">
+                <span>{{item.CategoryName}}</span>
+            </a>
+            {{else if item.KeyName!=null&&item.KeyName.indexOf('yashi')>-1}}
+            <a href="/Home/YasiList" data-class="yashi">
+                <span>{{item.CategoryName}}</span>
+            </a>
+            {{else if item.KeyName!=null&&item.KeyName.indexOf('niujin')>-1}}
+            <a href="/Home/Niujin" data-class="niujin">
+                <span>{{item.CategoryName}}</span>
+            </a>
+            {{else}}
+            <a href="/Home/About" data-class="about">
+                <span>{{item.CategoryName}}</span>
+            </a>
+            {{/if}}
+        </li>
+        {{/each}}
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            if (sessionStorage.getItem("muenUl") != null && sessionStorage.getItem("muenUl") != undefined) {
+                html = template("templateMuen", { data: JSON.parse(sessionStorage.getItem("muenUl")) });
+                document.getElementById("muenUl").innerHTML = html;
+            } else {
+                ajaxRequst("post", "Home/GetFirstMuen", {}, function (data) {
+                    if (data != null && data.code != undefined && data.code != null) {
+                        var html = "";
+                        html = template("templateMuen", { data: data.data });
+                        sessionStorage.setItem('muenUl', JSON.stringify(data.data));
+                        document.getElementById("muenUl").innerHTML = html;
+                    }
+                });
+            }
+        })
+    </script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

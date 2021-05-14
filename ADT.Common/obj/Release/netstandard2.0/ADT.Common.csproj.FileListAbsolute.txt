@@ -1,0 +1,9 @@
+D:\work\YNK_YS\YS\ADT.Common\bin\Release\netstandard2.0\ADT.Common.deps.json
+D:\work\YNK_YS\YS\ADT.Common\bin\Release\netstandard2.0\ADT.Common.dll
+D:\work\YNK_YS\YS\ADT.Common\bin\Release\netstandard2.0\ADT.Common.pdb
+D:\work\YNK_YS\YS\ADT.Common\obj\Release\netstandard2.0\ADT.Common.csprojAssemblyReference.cache
+D:\work\YNK_YS\YS\ADT.Common\obj\Release\netstandard2.0\ADT.Common.AssemblyInfoInputs.cache
+D:\work\YNK_YS\YS\ADT.Common\obj\Release\netstandard2.0\ADT.Common.AssemblyInfo.cs
+D:\work\YNK_YS\YS\ADT.Common\obj\Release\netstandard2.0\ADT.Common.csproj.CoreCompileInputs.cache
+D:\work\YNK_YS\YS\ADT.Common\obj\Release\netstandard2.0\ADT.Common.dll
+D:\work\YNK_YS\YS\ADT.Common\obj\Release\netstandard2.0\ADT.Common.pdb

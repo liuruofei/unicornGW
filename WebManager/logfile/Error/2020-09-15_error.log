@@ -1,0 +1,7 @@
+2020-09-15 13:22:12,152 [12] ERROR RollingLogFileAppender [(null)] - /api/v1/getwechartopenid错误：
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信 GET 请求发生错误！错误代码：40029，说明：invalid code, hints: [ req_id: Kgheupnre-vnfQqa ]
+   at Senparc.Weixin.CommonAPIs.CommonJsonSend.<>c.<.cctor>b__6_0(String apiUrl, String returnText)
+   at Senparc.CO2NET.HttpUtility.Get.GetJson[T](String url, Encoding encoding, Action`2 afterReturnText)
+   at Senparc.Weixin.CommonAPIs.CommonJsonSend.Send[T](String accessToken, String urlFormat, Object data, CommonJsonSendType sendType, Int32 timeOut, Boolean checkValidationResult, JsonSetting jsonSetting)
+   at Senparc.Weixin.WxOpen.AdvancedAPIs.Sns.SnsApi.JsCode2Json(String appId, String secret, String jsCode, String grantType, Int32 timeOut)
+   at WebManager.Controllers.WechartController.GetWeChartOpenId(String code) in F:\Other\优能考小程序\源码\WebManager\Controllers\WechartController.cs:line 50
