@@ -10,3 +10,15 @@ D:\work\YNK_YS\YS\ADT.Repository\obj\Release\netstandard2.0\ADT.Repository.cspro
 D:\work\YNK_YS\YS\ADT.Repository\obj\Release\netstandard2.0\ADT.Repository.csproj.CopyComplete
 D:\work\YNK_YS\YS\ADT.Repository\obj\Release\netstandard2.0\ADT.Repository.dll
 D:\work\YNK_YS\YS\ADT.Repository\obj\Release\netstandard2.0\ADT.Repository.pdb
+D:\younengkaoGW\ADT.Repository\bin\Release\netstandard2.0\ADT.Repository.deps.json
+D:\younengkaoGW\ADT.Repository\bin\Release\netstandard2.0\ADT.Repository.dll
+D:\younengkaoGW\ADT.Repository\bin\Release\netstandard2.0\ADT.Repository.pdb
+D:\younengkaoGW\ADT.Repository\bin\Release\netstandard2.0\ADT.Models.dll
+D:\younengkaoGW\ADT.Repository\bin\Release\netstandard2.0\ADT.Models.pdb
+D:\younengkaoGW\ADT.Repository\obj\Release\netstandard2.0\ADT.Repository.csprojAssemblyReference.cache
+D:\younengkaoGW\ADT.Repository\obj\Release\netstandard2.0\ADT.Repository.AssemblyInfoInputs.cache
+D:\younengkaoGW\ADT.Repository\obj\Release\netstandard2.0\ADT.Repository.AssemblyInfo.cs
+D:\younengkaoGW\ADT.Repository\obj\Release\netstandard2.0\ADT.Repository.csproj.CoreCompileInputs.cache
+D:\younengkaoGW\ADT.Repository\obj\Release\netstandard2.0\ADT.Repository.csproj.CopyComplete
+D:\younengkaoGW\ADT.Repository\obj\Release\netstandard2.0\ADT.Repository.dll
+D:\younengkaoGW\ADT.Repository\obj\Release\netstandard2.0\ADT.Repository.pdb

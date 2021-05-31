@@ -10,3 +10,15 @@ D:\work\YNK_YS\YS\ADT.Html\obj\Release\netcoreapp2.2\ADT.Html.csproj.CoreCompile
 D:\work\YNK_YS\YS\ADT.Html\obj\Release\netcoreapp2.2\ADT.Html.csproj.CopyComplete
 D:\work\YNK_YS\YS\ADT.Html\obj\Release\netcoreapp2.2\ADT.Html.dll
 D:\work\YNK_YS\YS\ADT.Html\obj\Release\netcoreapp2.2\ADT.Html.pdb
+D:\younengkaoGW\ADT.Html\bin\Release\netcoreapp2.2\ADT.Html.deps.json
+D:\younengkaoGW\ADT.Html\bin\Release\netcoreapp2.2\ADT.Html.dll
+D:\younengkaoGW\ADT.Html\bin\Release\netcoreapp2.2\ADT.Html.pdb
+D:\younengkaoGW\ADT.Html\bin\Release\netcoreapp2.2\ADT.Common.dll
+D:\younengkaoGW\ADT.Html\bin\Release\netcoreapp2.2\ADT.Common.pdb
+D:\younengkaoGW\ADT.Html\obj\Release\netcoreapp2.2\ADT.Html.csprojAssemblyReference.cache
+D:\younengkaoGW\ADT.Html\obj\Release\netcoreapp2.2\ADT.Html.AssemblyInfoInputs.cache
+D:\younengkaoGW\ADT.Html\obj\Release\netcoreapp2.2\ADT.Html.AssemblyInfo.cs
+D:\younengkaoGW\ADT.Html\obj\Release\netcoreapp2.2\ADT.Html.csproj.CoreCompileInputs.cache
+D:\younengkaoGW\ADT.Html\obj\Release\netcoreapp2.2\ADT.Html.csproj.CopyComplete
+D:\younengkaoGW\ADT.Html\obj\Release\netcoreapp2.2\ADT.Html.dll
+D:\younengkaoGW\ADT.Html\obj\Release\netcoreapp2.2\ADT.Html.pdb

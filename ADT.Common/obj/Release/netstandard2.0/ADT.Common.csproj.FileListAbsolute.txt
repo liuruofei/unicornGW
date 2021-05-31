@@ -7,3 +7,12 @@ D:\work\YNK_YS\YS\ADT.Common\obj\Release\netstandard2.0\ADT.Common.AssemblyInfo.
 D:\work\YNK_YS\YS\ADT.Common\obj\Release\netstandard2.0\ADT.Common.csproj.CoreCompileInputs.cache
 D:\work\YNK_YS\YS\ADT.Common\obj\Release\netstandard2.0\ADT.Common.dll
 D:\work\YNK_YS\YS\ADT.Common\obj\Release\netstandard2.0\ADT.Common.pdb
+D:\younengkaoGW\ADT.Common\bin\Release\netstandard2.0\ADT.Common.deps.json
+D:\younengkaoGW\ADT.Common\bin\Release\netstandard2.0\ADT.Common.dll
+D:\younengkaoGW\ADT.Common\bin\Release\netstandard2.0\ADT.Common.pdb
+D:\younengkaoGW\ADT.Common\obj\Release\netstandard2.0\ADT.Common.csprojAssemblyReference.cache
+D:\younengkaoGW\ADT.Common\obj\Release\netstandard2.0\ADT.Common.AssemblyInfoInputs.cache
+D:\younengkaoGW\ADT.Common\obj\Release\netstandard2.0\ADT.Common.AssemblyInfo.cs
+D:\younengkaoGW\ADT.Common\obj\Release\netstandard2.0\ADT.Common.csproj.CoreCompileInputs.cache
+D:\younengkaoGW\ADT.Common\obj\Release\netstandard2.0\ADT.Common.dll
+D:\younengkaoGW\ADT.Common\obj\Release\netstandard2.0\ADT.Common.pdb

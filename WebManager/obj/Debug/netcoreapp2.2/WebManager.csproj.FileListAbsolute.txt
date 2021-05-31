@@ -426,3 +426,5 @@ D:\younengkaoGW\WebManager\obj\Debug\netcoreapp2.2\WebManager.csproj.CopyComplet
 D:\younengkaoGW\WebManager\obj\Debug\netcoreapp2.2\WebManager.dll
 D:\younengkaoGW\WebManager\obj\Debug\netcoreapp2.2\WebManager.pdb
 D:\younengkaoGW\WebManager\obj\Debug\netcoreapp2.2\WebManager.genruntimeconfig.cache
+D:\younengkaoGW\WebManager\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Manage\ItemQuery\Add.cshtml.g.cs
+D:\younengkaoGW\WebManager\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Manage\ItemQuery\Index.cshtml.g.cs
