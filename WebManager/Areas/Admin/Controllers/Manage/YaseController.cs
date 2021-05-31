@@ -21,16 +21,16 @@ namespace WebManager.Areas.Admin.Controllers.Manage
         }
         protected override void Init()
         {
-            this.MenuID = "A-108";
+            this.MenuID = "A-109";
         }
         // GET: /<controller>/
-        [UsersRoleAuthFilter("A-108", FunctionEnum.Have)]
+        [UsersRoleAuthFilter("A-109", FunctionEnum.Have)]
         public IActionResult Index()
         {
             return View();
         }
 
-        [UsersRoleAuthFilter("A-108", FunctionEnum.Have)]
+        [UsersRoleAuthFilter("A-109", FunctionEnum.Have)]
         public IActionResult GetDataSource(string title, int page = 1, int limit = 10)
         {
             int total = 0;
@@ -44,21 +44,21 @@ namespace WebManager.Areas.Admin.Controllers.Manage
         }
 
 
-        [UsersRoleAuthFilter("A-108", FunctionEnum.Add)]
+        [UsersRoleAuthFilter("A-109", FunctionEnum.Add)]
         public IActionResult Add()
         {
             ViewBag.ID = 0;
             return View();
         }
 
-        [UsersRoleAuthFilter("A-108", FunctionEnum.Edit)]
+        [UsersRoleAuthFilter("A-109", FunctionEnum.Edit)]
         public IActionResult Edit(int ID)
         {
             ViewBag.ID = ID;
             return View("Add");
         }
 
-        [UsersRoleAuthFilter("A-108", "Add,Edit")]
+        [UsersRoleAuthFilter("A-109", "Add,Edit")]
         public IActionResult Find(int ID)
         {
             dynamic list;
@@ -78,7 +78,7 @@ namespace WebManager.Areas.Admin.Controllers.Manage
         /// </summary>
         /// <param name="vmodel"></param>
         /// <returns></returns>
-        [UsersRoleAuthFilter("A-108", "Add,Edit")]
+        [UsersRoleAuthFilter("A-109", "Add,Edit")]
         public IActionResult SaveInfo(YNK_Case vmodel)
         {
             int code = 0;
@@ -129,7 +129,7 @@ namespace WebManager.Areas.Admin.Controllers.Manage
         /// </summary>
         /// <param name="id">id集合</param>
         /// <returns></returns>
-        [UsersRoleAuthFilter("A-108", FunctionEnum.Delete)]
+        [UsersRoleAuthFilter("A-109", FunctionEnum.Delete)]
         public IActionResult Delete(int Id)
         {
             var result = _currencyService.DbAccess().Deleteable<YNK_Case>().Where(p => p.Id == Id).ExecuteCommand();

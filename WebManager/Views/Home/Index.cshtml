@@ -8,7 +8,7 @@
     }
 
         .regionUl li {
-            margin-top: 9px;
+            margin-top: 21px;
         }
 
             .regionUl li input {
@@ -83,10 +83,10 @@
     <div class="section__inner-wrapper section__inner ">
         <div class="section__content">
             <div class="region region__content brick--main">
-                <article class="node node-landing-page article article--landing-page article--view-full article-type--landing_page prose clearfix">
+                <article class="node node-landing-page article article--landing-page article--view-full article-type--landing_page prose clearfix" style="margin-top:15px;">
                     <div class="wrapper wrapper--padding" style="flex-wrap:wrap;">
                         <div class="landing-grid--single landing-grid landing-grid--01" style="display:flex">
-                            <div class="brick brick--home---get-updates-from-ucas grid__item brick--default" id="bannerContent">
+                            <div class="brick  brick--home---get-updates-from-ucas brick--default" id="bannerContent" style="order: 0;">
 
                                 <div class="brick__wrapper clearfix contextual-links-region brick__wrapper--has-background" style="min-height: 182px;">
                                     <div class="brick__image background-image--loaded" style="background-image: url('');"></div>
@@ -105,9 +105,9 @@
                                 </div>
 
                             </div>
-                            <div class="brick brick--ad brick--heavy prose brick--fourth-width brick--advertisement">
+                            <div class="brick--ad brick--heavy prose brick--fourth-width brick--advertisement">
                                 <div class="brick__wrapper clearfix">
-                                    <div style="width: 300px; height: 250px;background-color:rgba(255,255,255,.5);opacity:0.8;border-radius:5px;text-align:center;padding:8px 16px 0 16px;" class="region1">
+                                    <div style="width: 300px; height:300px;background-color:rgba(255,255,255,.5);opacity:0.8;border-radius:5px;text-align:center;padding:8px 16px 0 16px;" class="region1">
                                         <h3>领取资料</h3>
                                         <ul class="regionUl">
                                             <li><input name="UserName" placeholder="您的姓名" style=" text-indent:0.7em;" /></li>
@@ -118,26 +118,26 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="brick brick--ad brick--heavy prose brick--fourth-width brick--advertisement">
-                                <div class="brick__wrapper clearfix">
+                            <!--<div class="brick brick--ad brick--heavy prose brick--fourth-width brick--advertisement">
+                                <div class="brick__wrapper clearfix">-->
                                     @*<div style="width: 300px; height: 250px;background-color:rgba(255,255,255,.5);opacity:0.8;border-radius:5px;padding:8px 16px 0 16px;" class="region1">
                                         <div style="text-align:center;">
                                             <img src="~/assets/images/gongzhonghao.png" style="position: relative; top: 4px;" />
                                             <div style="font-weight:600">微信公众号</div>
                                         </div>
                                     </div>*@
-                                    <div style="width: 300px; height: 250px;background-color:rgba(255,255,255,.5);opacity:0.8;border-radius:5px;padding:41px 9px 0 9px;display:flex" class="region1">
+                                    <!--<div style="width: 300px; height: 250px;background-color:rgba(255,255,255,.5);opacity:0.8;border-radius:5px;padding:41px 9px 0 9px;display:flex" class="region1">
                                         <div style="text-align:center;">
                                             <img src="~/assets/images/gongzhonghao.png" style="position: relative; top: 4px;width: 166px;height: 143px;" />
                                             <div style="font-weight:600">微信公众号</div>
                                         </div>
-                                        <div style="text-align:center;">
+                                        <div style="text-align:center;margin-left:3px">
                                             <img src="~/assets/images/lianxiwomen.jpg" style="position: relative; top: 4px;width: 166px;height: 143px;" />
                                             <div style="font-weight:600">联系微信</div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
 
@@ -242,7 +242,7 @@
     <script type="text/html" id="bannerTemplete">
         {{each data item index}}
         <div class="brick__wrapper clearfix contextual-links-region brick__wrapper--has-background" style="min-height: 182px;">
-            <div class="brick__image background-image--loaded" style="background-image: url(&quot;{{item.BannerImage}}?itok=poB52cGn&quot;);"></div>
+            <div class="brick__image background-image--loaded" style="background-image: url(&quot;{{item.BannerImage}}?itok=poB52cGn&quot;);background-size:cover;background-repeat:no-repeat"></div>
             <h2 class="brick__title"><a href="/Home/Detail?id={{item.Id}}&type=first">{{item.Title}}</a></h2>
             <div class="brick__content">
                 <div class="bean__body prose">
@@ -260,7 +260,7 @@
         <div class="brick brick--home---explore-your-options grid__item brick--default">
             <div class="brick__wrapper clearfix contextual-links-region brick__wrapper--has-background">
 
-                <div class="brick__image background-image--loaded" style="background-image: url(&quot;{{item.ImgUrl}}?itok=nVeGbiDX&quot;);"></div>
+                <div class="brick__image background-image--loaded" style="background-image: url(&quot;{{item.ImgUrl}}?x-image-process=image/resize,w_100,h_100);"></div>
 
                 <h2 class="brick__title"><a href="/Home/Detail?id={{item.Id}}&type=course">{{item.CourseName}}</a></h2>
                 <div class="brick__content">
@@ -281,7 +281,7 @@
         {{each data item index}}
         <div class="brick brick--ug---applying-to-university grid__item brick--default">
             <div class="brick__wrapper clearfix contextual-links-region brick__wrapper--has-background">
-                <div class="brick__image background-image--loaded" style="background-image: url(&quot;{{item.ImgUrl}}?itok=-L7vOOEi&quot;);"></div>
+                <div class="brick__image background-image--loaded" style="background-image: url(&quot;{{item.ImgUrl}}?x-image-process=image/resize,w_100,h_100);"></div>
 
                 <h2 class="brick__title"><a href="/Home/Detail?id={{item.Id}}&type=case">{{item.Title}}</a></h2>
 

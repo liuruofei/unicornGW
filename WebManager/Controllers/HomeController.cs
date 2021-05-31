@@ -85,6 +85,17 @@ namespace WebManager.Controllers
                     Subtitle = n.Subtitle
                 }).First();
             }
+            else if (Id > 0 && type == "item")
+            {
+                vmodel = _currencyService.DbAccess().Queryable<YNK_Case>().Where(n => n.Id == Id && n.Type == 3).Select<ArcleModel>(n => new ArcleModel
+                {
+                    Id = n.Id,
+                    Content = n.Content,
+                    ImgUrl = n.ImgUrl,
+                    Title = n.Title,
+                    Subtitle = n.Subtitle
+                }).First();
+            }
             else if (Id > 0 && type =="news")
             {
                 vmodel = _currencyService.DbAccess().Queryable<YNK_News>().Where(n => n.Id == Id).Select<ArcleModel>(n => new ArcleModel
@@ -127,7 +138,7 @@ namespace WebManager.Controllers
         }
 
         /// <summary>
-        /// 获取牛津详情
+        /// 获取Alevel详情
         /// </summary>
         /// <returns></returns>
         public IActionResult GetAlevelDetail()

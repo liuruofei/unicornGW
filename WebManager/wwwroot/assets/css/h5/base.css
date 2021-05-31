@@ -8751,11 +8751,11 @@ body.v4 .wrapper-background--header-with-background, body.v5 .wrapper-background
 }
 
 .footer .footer__social-contact {
-    background-color: #752482;
+    background-color: #F8F8F8;
     float: left;
     max-width: 114.3em;
     padding: 2.85714rem 0 1.42857rem;
-    width: 50%
+    width: 35%
 }
 
 @media all and (max-width: 62em) {
@@ -8796,7 +8796,7 @@ body.v4 .wrapper-background--header-with-background, body.v5 .wrapper-background
 }
 
 .footer .footer__social-contact .contact-link {
-    background-color: #752482;
+    background-color: #F8F8F8;
     border: 0.14286rem #fff solid;
     border-radius: 2em;
     color: #fff;
@@ -8853,11 +8853,11 @@ body.v4 .wrapper-background--header-with-background, body.v5 .wrapper-background
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-    background-color: #752482;
+    background-color: #F8F8F8;
     float: left;
     padding: 2.57143rem 0 1.14286rem;
     white-space: nowrap;
-    width: 50%
+    width: 35%
 }
 
     .footer .footer__page-links a[href=""] {
@@ -8873,6 +8873,9 @@ body.v4 .wrapper-background--header-with-background, body.v5 .wrapper-background
         padding: 0;
         width: 100%
     }
+    .footer .footer__chat {
+        width: 100%
+    } 
 }
 
 .footer .footer__page-links .footer__links-group {
@@ -8907,7 +8910,7 @@ body.v4 .wrapper-background--header-with-background, body.v5 .wrapper-background
 }
 
 .footer .footer__page-links .footer__links-group a {
-    color: #fff;
+    color: black;
     padding: 0.71429rem 0;
     position: relative;
     text-align: left
@@ -8933,7 +8936,7 @@ body.v4 .wrapper-background--header-with-background, body.v5 .wrapper-background
 
 @media all and (max-width: 62em) {
     .footer .footer__page-links .footer__links-group a {
-        background-color: #752482;
+        background-color: #f8f8f8;
         bottom: unset;
         position: unset;
         transition: unset
@@ -8946,7 +8949,7 @@ body.v4 .wrapper-background--header-with-background, body.v5 .wrapper-background
 
 @media all and (max-width: 62em) {
     .footer .footer__page-links .footer__links-group:first-child a {
-        background: #5e1d68;
+        background: #e6e0e0;
         border-radius: 3.14286rem;
         height: 6.35714rem;
         line-height: 6.35714rem;
@@ -8971,7 +8974,7 @@ body.v4 .wrapper-background--header-with-background, body.v5 .wrapper-background
 @media all and (max-width: 62em) {
     .footer .footer__page-links .footer__links-group:nth-child(n+2) a {
         align-items: unset;
-        box-shadow: 1px 0 0 0 #5e1d68, 0 1px 0 0 #5e1d68, 1px 1px 0 0 #5e1d68, 1px 0 0 0 #5e1d68 inset, 0 1px 0 0 #5e1d68 inset;
+        box-shadow: 1px 0 0 0 #e6e0e0, 0 1px 0 0 #e6e0e0, 1px 1px 0 0 #e6e0e0, 1px 0 0 0 #e6e0e0 inset, 0 1px 0 0 #e6e0e0 inset;
         display: inline-block;
         margin: 0;
         padding: 1.78571rem 0.57143rem;
@@ -9036,16 +9039,17 @@ body.v4 .wrapper-background--header-with-background, body.v5 .wrapper-background
 }
 
 .footer .wrapper-container:first-child {
-    background-color: #752482;
+    color:black;
+    background-color: #F8F8F8;
     overflow: hidden;
     padding-bottom: 4.85714rem
 }
 
     .footer .wrapper-container:first-child::after {
-        background-color: #752482;
+/*        background-color: #F8F8F8;
         border-bottom: 4.78571rem solid #fff;
         border-right: 100vw solid transparent;
-        content: ""
+        content: ""*/
     }
 
 @media all and (max-width: 62em) {
@@ -21632,5 +21636,14 @@ body.v5 body.v5 .wrapper-background--translucent, body.v5 .theme-white-transluce
 @media(min-width:720px) {
     .article__content {
         padding: 0 3rem;
+    }
+}
+@media (max-width: 62em) {
+    .wechat2 {
+      margin-right:auto;
+    }
+    .footer__chat {
+       padding-top:10px !important;
+       padding-bottom:10px;
     }
 }

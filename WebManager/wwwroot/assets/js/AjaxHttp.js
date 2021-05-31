@@ -1,7 +1,6 @@
 ﻿//var serverApi = "https://cc.younengkao.com/";
-//var conn = "https://cc.younengkao.com/chathub";
-var serverApi = "https://localhost:5001/";
-var conn = "https://localhost:5001/chathub";
+//var serverApi = "https://localhost:5001/";
+var serverApi = "https://http://192.168.2.9:92/";
 function ajaxRequst(method, url, contentType, dataModel, callBack) {
     var accountUser = sessionStorage.getItem("accountUser");
     if (accountUser != undefined && accountUser != null && accountUser != "") {

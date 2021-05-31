@@ -1,4 +1,5 @@
-var http = "http://localhost:5000/";
+//var http = "http://localhost:5000/";
+var http = "http://192.168.2.9:92/";
 function ajaxRequst(method, url, dataModel, callBack) {
     $.ajax({
         type:method,
