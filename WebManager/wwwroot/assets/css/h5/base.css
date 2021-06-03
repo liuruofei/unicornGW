@@ -21647,6 +21647,16 @@ body.v5 body.v5 .wrapper-background--translucent, body.v5 .theme-white-transluce
         display: none !important;
     }
 }
+@media (max-width: 62em) {
+    .wechat2 {
+        margin-right: auto;
+    }
+
+    .footer__chat {
+        padding-top: 10px !important;
+        padding-bottom: 10px;
+    }
+}
 @media (max-width: 45em) {
     .wechat2 {
       margin-right:auto;
