@@ -154,6 +154,24 @@ namespace WebManager.Controllers
             }).First();
             return Json(new { code = 200, msg = "获取成功", data = vmodel });
         }
+        /// <summary>
+        /// 获取栏目雅思内容
+        /// </summary>
+        /// <returns></returns>
+        public IActionResult GetYashiDetail()
+        {
+            ArcleModel vmodel = new ArcleModel();
+            vmodel = _currencyService.DbAccess().Queryable<YNK_Category>().Where(n => n.KeyName == "yashi").Select<ArcleModel>(n => new ArcleModel
+            {
+                Id = n.Id,
+                Content = n.Remarks,
+                ImgUrl = n.ImgUrl,
+                Title = n.Title,
+                Subtitle = n.Subtitle
+            }).First();
+            return Json(new { code = 200, msg = "获取成功", data = vmodel });
+        }
+        
 
 
         /// <summary>

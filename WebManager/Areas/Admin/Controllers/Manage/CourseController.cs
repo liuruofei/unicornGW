@@ -92,6 +92,7 @@ namespace WebManager.Areas.Admin.Controllers.Manage
                 {
                     YNK_Course banner = _currencyService.DbAccess().Queryable<YNK_Course>().Where(f => f.Id == vmodel.Id).First();
                     banner.ImgUrl = vmodel.ImgUrl;
+                    banner.MobileImgUrl = vmodel.MobileImgUrl;
                     banner.CourseTitle = vmodel.CourseTitle;
                     banner.CourseName = vmodel.CourseName;
                     banner.Content = vmodel.Content;

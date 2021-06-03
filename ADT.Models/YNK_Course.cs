@@ -25,6 +25,12 @@ namespace ADT.Models
         /// 课程图片
         /// </summary>
         public string ImgUrl { get; set; }
+
+        /// <summary>
+        /// 手机端图片
+        /// </summary>
+        public string MobileImgUrl { get; set; }
+
         /// <summary>
         /// 内容
         /// </summary>

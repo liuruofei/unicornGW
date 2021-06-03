@@ -55,13 +55,17 @@
 
             <div class="brick__wrapper clearfix contextual-links-region brick__wrapper--has-background">
 
-                <div class="brick__image background-image--loaded" style="background-image: url(&quot;{{item.ImgUrl}}?itok=nVeGbiDX&quot;);"></div>
+                <a href="/Home/Detail?id={{item.Id}}&type=course">
+                    <div class="brick__image background-image--loaded pcImg" style="background-image: url(&quot;{{item.ImgUrl}}?itok=nVeGbiDX&quot;);"></div>
+                    <div class="brick__image background-image--loaded mobileImg" style="background-image: url(&quot;{{item.MobileImgUrl}}??itok=FHDLF6IW&quot;);background-size:cover;background-repeat:no-repeat">
+                    </div>
+                </a>
 
-                <h2 class="brick__title"><a href="/Home/Detail?id={{item.Id}}&type=course">{{item.CourseName}}</a></h2>
+                @*<h2 class="brick__title"><a href="/Home/Detail?id={{item.Id}}&type=course">{{item.CourseName}}</a></h2>*@
 
                 <div class="brick__content">
                     <div class="bean__body prose">
-                        <span>{{item.CourseTitle}}</span>
+                        @*<span>{{item.CourseTitle}}</span>*@
                     </div>
                 </div>
 

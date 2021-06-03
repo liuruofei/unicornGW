@@ -91,6 +91,7 @@ namespace WebManager.Areas.Admin.Controllers.Manage
                 {
                     YNK_News banner = _currencyService.DbAccess().Queryable<YNK_News>().Where(f => f.Id == vmodel.Id).First();
                     banner.ImgUrl = vmodel.ImgUrl;
+                    banner.MobileImgUrl = vmodel.MobileImgUrl;
                     banner.Title = vmodel.Title;
                     banner.Subtitle = vmodel.Subtitle;
                     banner.Content = vmodel.Content;

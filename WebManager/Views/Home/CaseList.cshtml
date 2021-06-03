@@ -53,7 +53,11 @@
         <div class="brick brick--ug---applying-to-university grid__item brick--default">
             <div class="brick__wrapper clearfix contextual-links-region brick__wrapper--has-background">
 
-                <div class="brick__image background-image--loaded" style="background-image: url(&quot;{{item.ImgUrl}}?itok=-L7vOOEi&quot;);"></div>
+                <div class="brick__image background-image--loaded case pcImg" style="background-image: url(&quot;{{item.ImgUrl}}?itok=-L7vOOEi&quot;);"></div>
+
+                <div class="brick__image background-image--loaded case mobileImg" style="background-image: url(&quot;{{item.MobileImgUrl}});background-size:cover;background-repeat:no-repeat">
+
+                </div>
 
                 <h2 class="brick__title"><a href="/Home/Detail?id={{item.Id}}&type=case">{{item.Title}}</a></h2>
 

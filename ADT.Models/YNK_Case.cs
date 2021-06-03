@@ -8,6 +8,11 @@ namespace ADT.Models
     {
         public int Id { get; set; }
         public string ImgUrl { get; set; }
+
+        /// <summary>
+        /// 手机端图片
+        /// </summary>
+        public string MobileImgUrl { get; set; }
         /// <summary>
         /// 标题
         /// </summary>

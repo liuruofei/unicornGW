@@ -27,6 +27,12 @@ namespace ADT.Models
         /// 图片
         /// </summary>
         public string ImgUrl { get; set; }
+
+        /// <summary>
+        /// 手机端图片
+        /// </summary>
+        public string MobileImgUrl { get; set; }
+
         public DateTime CreateTime { get; set; }
     }
 }

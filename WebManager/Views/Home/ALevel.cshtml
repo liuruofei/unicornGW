@@ -51,7 +51,7 @@
             $("#muenUl").find("li").find("a").removeClass("activeA");
             $("#muenUl").find("li").find("a[data-class='alevel']").addClass("activeA");
         })
-        //绑定课程列表
+        //绑定Alevel全日制
         ajaxRequst("post", "Home/GetAlevelDetail",{}, function (data) {
             if (data != null && data.code != undefined && data.code != null && data.data != null) {
                 $("#acticleTitle").html(data.data.Title);

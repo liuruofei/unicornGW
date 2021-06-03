@@ -698,7 +698,7 @@ div.brick-grid .brick--variable-width {
 }
 
     .landing-grid .brick--default .brick__image::before {
-        background-image: linear-gradient(to top,#343434 0%,#ffffff 100%);
+      /*  background-image: linear-gradient(to top,#343434 0%,#ffffff 100%);*/
         bottom: -1px;
         content: '';
         left: -1px;
@@ -708,12 +708,18 @@ div.brick-grid .brick--variable-width {
     }
 
     .landing-grid .brick--default .brick__image.background-image--loaded::before {
-        background-image: linear-gradient(to top,rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%)
+      /*  background-image: linear-gradient(to top,rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%)*/
+    }
+    .landing-grid .brick--default .brick__image.case::before {
+          background-image: linear-gradient(to top,rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%)
     }
 
 @media screen and (max-width:720px) {
     .landing-grid .brick--default .brick__image.background-image--loaded::before {
-        background-image: linear-gradient(to top,rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.2) 100%)
+       /* background-image: linear-gradient(to top,rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.2) 100%)*/
+    }
+    .landing-grid .brick--default .brick__image.case::before {
+         background-image: linear-gradient(to top,rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.2) 100%)
     }
 }
 
