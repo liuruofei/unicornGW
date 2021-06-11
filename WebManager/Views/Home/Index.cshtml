@@ -63,12 +63,15 @@
 <section class="section section--lower-header section--lower-header-has-background section--lower-header-large section--lower-header-has-search" id="section-lower-header">
     <div class="wrapper-background wrapper-background--header-with-background wrapper-background--no-contain background-image--loaded"
          style="margin-top: -130px; padding-top: 130px; background-position-y: 0px;">
-        <div class="section__video-background">
+        <div class="section__video-background backvideo" id="backvideo" style="z-index:3333">
             <video autoplay="" muted="" loop="" playsinline="" id="landing-video" data-lazy-video="~/assets/images/homepage-leader.mp4">
                 <source type="video/mp4" src="~/assets/images/homepage-leader.mp4">
             </video>
+            <div style="margin-top:22%;color:white;">
+                <a id="bannerHref"><h4 id="BannerTitle" style="color:white;"></h4></a>
+                <p id="bannerSubTitle" style="color:white;"></p>
+            </div>
         </div>
-
         <header class="header header--with-background header--reduced">
             <div class="header__inner-wrapper wrapper wrapper--padding">
                 <h1 class="header__heading">Choose your future</h1>
@@ -80,7 +83,7 @@
     </div>
 </section>
 
-<div id="section--content" class="section section--content wrapper-background wrapper-background--angle ">
+<div id="section--content firstSectionContent" class="section section--content wrapper-background wrapper-background--angle ">
     <div class="section__inner-wrapper section__inner ">
         <div class="section__content">
             <div class="region region__content brick--main">
@@ -109,7 +112,7 @@
                             <div class="brick--ad brick--heavy prose brick--fourth-width brick--advertisement">
                                 <div class="brick__wrapper clearfix" style="padding-top: 0px; padding-bottom: 0px;">
                                     <div style="min-width: 300px; height:300px;background-color:#eee;border-radius:5px;text-align:center;padding:8px 16px 0 16px;" class="region1">
-                                        <h3>领取资料</h3>
+                                        <h4>领取资料</h4>
                                         <ul class="regionUl">
                                             <li><input name="UserName" placeholder="您的姓名" style=" text-indent:0.7em;" /></li>
                                             <li><input name="Mobile" placeholder="手机号码" type="number" maxlength="11" /></li>
@@ -239,9 +242,9 @@
     <script type="text/html" id="courseTeplate">
         {{each data item index}}
         <div class="brick brick--ug---applying-to-university grid__item brick--default"  style="cursor:pointer">
-            <div class="brick__wrapper clearfix contextual-links-region brick__wrapper--has-background">
+            <div class="brick__wrapper clearfix contextual-links-region brick__wrapper--has-background" style="box-shadow:none">
                 <a href="/Home/Detail?id={{item.Id}}&type=course">
-                    <div class="brick__image background-image--loaded pcImg" style="background-image: url(&quot;{{item.ImgUrl}}??itok=FHDLF6IW&quot;);background-size:cover;background-repeat:no-repeat">
+                    <div class="brick__image background-image--loaded pcImg" style="background-image: url(&quot;{{item.ImgUrl}}??itok=FHDLF6IW&quot;);background-size:contain;background-repeat:no-repeat">
 
                     </div>
                     <div class="brick__image background-image--loaded mobileImg" style="background-image: url(&quot;{{item.MobileImgUrl}}??itok=FHDLF6IW&quot;);background-size:cover;background-repeat:no-repeat">
@@ -293,12 +296,12 @@
         <div class="brick brick--book-your-ucas-discovery-day grid__item brick--teaser">
             <div class="brick__wrapper clearfix contextual-links-region brick__wrapper--has-background">
                 <div class="brick__image background-image--loaded" style="background-image: url(&quot;{{item.ImgUrl}}?itok=FsDLF6IW&quot;);background-size:cover;background-repeat:no-repeat"></div>
-                <a href="/Home/Detail?id={{item.Id}}&type=news"><h2 class="brick__title" style="color: #a53c3c !important">{{item.Title}}</h2></a>
+                <a href="/Home/Detail?id={{item.Id}}&type=news"><h2 class="brick__title" style="color:black !important">{{item.Title}}</h2></a>
                 <div class="brick__content">
                     <div class="bean__body prose">
-                        <a href="/Home/Detail?id={{item.Id}}&type=news"><p style="color: #a53c3c !important">{{item.Subtitle}}</p></a>
+                        <a href="/Home/Detail?id={{item.Id}}&type=news">
+                        <p style="color:#403939!important;font-size:14px;margin-bottom:0px">{{item.Subtitle}}</p></a>
                     </div>
-                    <a class="brick__secondary-link">Read more</a>
                 </div>
             </div>
         </div>
@@ -316,38 +319,95 @@
             }
         });
         //绑定banner图
-        ajaxRequst("post", "Home/BindBanner", {}, function (data) {
-            if (data != null && data.code != undefined && data.code != null && data.data != null) {
-                var html = "";
-                html = template("bannerTemplete", { data: data.data });
-                document.getElementById("bannerContent").innerHTML = html;
-            }
-        });
+        var bannerData = sessionStorage.getItem("bannerdata");
+        if (bannerData != undefined && bannerData != null) {
+            var bannerJson = JSON.parse(bannerData);
+            var html = "";
+            html = template("bannerTemplete",{ data:bannerJson });
+            document.getElementById("bannerContent").innerHTML = html;
+            var fristBanner = bannerJson[0];
+            $("#backvideo").css("background-image", "url('" + fristBanner.BannerImage + "')");
+            $("#backvideo").css("background-size", "cover");
+            $("#backvideo").css("background-repeat", "no-repeat");
+            $("#bannerHref").attr("href", "/Home/Detail?id=" + fristBanner.Id + "&type=first");
+            $("#BannerTitle").text(fristBanner.Title);
+            $("#bannerSubTitle").text(fristBanner.Subtitle);
+        }
+        else {
+            ajaxRequst("post", "Home/BindBanner", {}, function (data) {
+                if (data != null && data.code != undefined && data.code != null && data.data != null) {
+                    sessionStorage.setItem("bannerdata", JSON.stringify(data.data));
+                    var html = "";
+                    html = template("bannerTemplete", { data: data.data });
+                    document.getElementById("bannerContent").innerHTML = html;
+                    if (data.data != null && data.data.length > 0) {
+                        var fristBanner = data.data[0];
+                        $("#backvideo").css("background-image", "url('" + fristBanner.BannerImage + "')");
+                        $("#backvideo").css("background-size", "cover");
+                        $("#backvideo").css("background-repeat", "no-repeat");
+                        $("#bannerHref").attr("href", "/Home/Detail?id=" + fristBanner.Id + "&type=first");
+                        $("#BannerTitle").text(fristBanner.Title);
+                        $("#bannerSubTitle").text(fristBanner.Subtitle);
+                    }
+
+                }
+            });
+        }
         //绑定课程列表
-        ajaxRequst("post", "Home/BindCourse", { page: 1, pagesize: 4 }, function (data) {
-            if (data != null && data.code != undefined && data.code != null && data.data != null) {
-                var html = "";
-                html = template("courseTeplate", { data: data.data });
-                document.getElementById("courseContent").innerHTML = html;
-            }
-        });
-        //绑定案例列表
-        ajaxRequst("post", "Home/BindCase", { page: 1, pagesize: 4 }, function (data) {
-            if (data != null && data.code != undefined && data.code != null && data.data != null) {
-                var html = "";
-                html = template("caseTeplate", { data: data.data });
-                document.getElementById("caseContent").innerHTML = html;
-            }
-        });
-        //绑定新闻列表
-        ajaxRequst("post", "Home/BindNews", { page: 1, pagesize: 4 }, function (data) {
-            if (data != null && data.code != undefined && data.code != null && data.data != null) {
-                console.log(data);
-                var html = "";
-                html = template("newsTeplate", { data: data.data });
-                document.getElementById("newsContent").innerHTML = html;
-            }
-        });
+        var coursedata = sessionStorage.getItem("coursedata");
+        if (coursedata != undefined && coursedata != null) {
+            var courseJson = JSON.parse(coursedata);
+            var html = "";
+            html = template("courseTeplate",{ data:courseJson});
+            document.getElementById("courseContent").innerHTML = html;
+
+        }
+        else {
+            ajaxRequst("post", "Home/BindCourse", { page: 1, pagesize: 4 }, function (data) {
+                if (data != null && data.code != undefined && data.code != null && data.data != null) {
+                    sessionStorage.setItem("coursedata", JSON.stringify(data.data));
+                    var html = "";
+                    html = template("courseTeplate", { data: data.data });
+                    document.getElementById("courseContent").innerHTML = html;
+                }
+            });
+        }
+        var casedata = sessionStorage.getItem("casedata");
+        if (casedata != undefined && casedata != null) {
+            var caseJson = JSON.parse(casedata);
+            var html = "";
+            html = template("caseTeplate", { data: caseJson });
+            document.getElementById("caseContent").innerHTML = html;
+        }
+        else {
+            //绑定案例列表
+            ajaxRequst("post", "Home/BindCase", { page: 1, pagesize: 4 }, function (data) {
+                if (data != null && data.code != undefined && data.code != null && data.data != null) {
+                    sessionStorage.setItem("casedata", JSON.stringify(data.data));
+                    var html = "";
+                    html = template("caseTeplate", { data: data.data });
+                    document.getElementById("caseContent").innerHTML = html;
+                }
+            })
+        };
+        var newsdata = sessionStorage.getItem("newsdata");
+        if (newsdata != undefined && newsdata != null) {
+            var newsJson = JSON.parse(newsdata);
+            var html = "";
+            html = template("newsTeplate", { data: newsJson });
+            document.getElementById("newsContent").innerHTML = html;
+        }
+        else {
+            //绑定新闻列表
+            ajaxRequst("post", "Home/BindNews", { page: 1, pagesize: 4 }, function (data) {
+                if (data != null && data.code != undefined && data.code != null && data.data != null) {
+                    sessionStorage.setItem("newsdata", JSON.stringify(data.data));
+                    var html = "";
+                    html = template("newsTeplate", { data: data.data });
+                    document.getElementById("newsContent").innerHTML = html;
+                }
+            });
+        }
         //领取资料
         function regionMateria() {
             var mobile = $("input[name='Mobile']").val();

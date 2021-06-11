@@ -39,25 +39,66 @@
             display: block;
             display: initial;
         }
-        .muenUl {
-            list-style: none;
-            display: flex;
-            flex-wrap:wrap;
-        }
-
-            .muenUl li {
-                flex: 1 auto;
-            }
-                .muenUl li a {
-                    color: black;
-                    font-weight: 700;
-                }
-                .muenUl li a:hover {
-                    color: #a53c3c !important;
-                }
         .activeA {
             color: #a53c3c !important;
         }
+        .footerLog {
+            padding-left: 97px;
+            padding-bottom: 13px;
+        }
+        .lanmuIcon {
+            display: none;
+            position: absolute;
+            right: -5px;
+            top: 15px;
+            -webkit-transform: translateZ(0);
+            -webkit-backface-visibility: hidden;
+            -webkit-transition-property: -webkit-transform;
+            -moz-transition-property: -moz-transform;
+            transition-property: transform;
+            -webkit-transition-duration: 0.4s;
+            -moz-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+            -webkit-transform: translateX(0px);
+            -moz-transform: translateX(0px);
+            -ms-transform: translateX(0px);
+            -o-transform: translateX(0px);
+            transform: translateX(0px);
+        }
+
+        .lanmuIcon .icon {
+            width: 35px;
+            height: 20px;
+            position: relative;
+            display: block;
+        }
+            .lanmuIcon .icon .line {
+                display: block;
+                background: #a53c3c;
+                width: 30px;
+                height: 4px;
+                position: absolute;
+                left: 0;
+                -webkit-transition: all .5s;
+                -o-transition: all .5s;
+                transition: all .5s;
+                border-radius: 2px;
+            }
+                .lanmuIcon .icon .line.line-1 {
+                    top: 0;
+                }
+                .lanmuIcon .icon .line.line-2 {
+                    top: 50%;
+                }
+                .lanmuIcon .icon .line.line-3{
+                    top: 100%;
+                }
+        .Unicorn {
+            position: relative;
+            bottom: 16px;
+            font-weight: 700;
+        }
+
     </style>
     @RenderSection("css", required: false)
 </head>
@@ -65,8 +106,17 @@
     <div class="page-wrapper page page-has-sticky-ad grid-page-layout--01">
         <section class="section section--upper-header global-header global-header--learners " id="section--upper-header">
             <div>
-                <div style="width: 15%; float: left;"><img alt="UCAS" src="~/assets/images/younnengkaolog.png" style="height: 36px;padding-left:10%;"></div>
-                <div style="float:right;width: 85%;padding-top: 5px;">
+                <div class="hardLog"><img src="~/assets/images/younnengkaolog.png" style="height: 42px;bottom: 3px;position: relative;"><span class="Unicorn">Unicorn</span></div>
+                <div  class="hardLanmu">
+                    <div class="lanmuIcon"  id="lanmuIcon">
+                        <a href="javascript:void(0)">
+                            <span class="icon">
+                                <span class="line line-1"></span>
+                                <span class="line line-2"></span>
+                                <span class="line line-3"></span>
+                            </span>
+                        </a>
+                    </div>
                     <ul class="muenUl" id="muenUl">
                         <li>
                             <a href="/Home/Index">
@@ -83,7 +133,7 @@
                 <div class="wrapper wrapper--padding" style="max-width: 125.3rem;">
                     <nav class="footer__social-contact">
                         <div class="footer__contact-links">
-                            <div style=" padding-left: 97px; padding-bottom: 10px;">
+                            <div class="footerLog">
                                 <img src="~/assets/images/younnengkaolog.png">
                             </div>
                             <div style="color:black;line-height: 22px;">地址:上海黄浦区马当路388号复习SOHO广场A座2601室</div>
@@ -184,7 +234,11 @@
                     }
                 });
             }
+             
         })
+        $("#lanmuIcon").click(function () {
+            $("#muenUl").slideToggle();
+        });
     </script>
     @RenderSection("scripts", required: false)
 </body>

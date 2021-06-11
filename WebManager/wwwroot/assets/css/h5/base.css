@@ -7639,6 +7639,7 @@ body.v4 .wrapper-background--header-with-background, body.v5 .wrapper-background
         padding: 1rem 1.78571rem;
         padding-bottom: 1rem;
         padding-top: 0.3rem;
+        padding-left:0.2rem;
     }
 
     .meganav__links-wrapper {
@@ -9054,7 +9055,7 @@ body.v4 .wrapper-background--header-with-background, body.v5 .wrapper-background
 
 @media all and (max-width: 62em) {
     .footer .wrapper-container:first-child {
-        background-color: #752482;
+        background-color:rgb(255 255 255 / 0%);
         padding-bottom: 0
     }
 
@@ -21627,6 +21628,15 @@ body.v5 body.v5 .wrapper-background--translucent, body.v5 .theme-white-transluce
     line-height: 73px;
 }
 
+@media (max-width: 992px) {
+    .hardLog {
+        width: 15%;
+    }
+
+    .hardLanmu {
+        width: 85%;
+    }
+}
 @media(max-width:720px) {
     .boxMsg {
         left: 28%;
@@ -21636,6 +21646,17 @@ body.v5 body.v5 .wrapper-background--translucent, body.v5 .theme-white-transluce
 @media(min-width:720px) {
     .article__content {
         padding: 0 3rem;
+    }
+    .muenUl {
+        display: flex !important;
+        flex-wrap: wrap;
+    }
+    .hardLog {
+        width: 15%;
+    }
+
+    .hardLanmu {
+        width: 85%;
     }
 }
 @media(min-width:45em) {
@@ -21656,6 +21677,67 @@ body.v5 body.v5 .wrapper-background--translucent, body.v5 .theme-white-transluce
         padding-top: 10px !important;
         padding-bottom: 10px;
     }
+    .footerLog {
+        padding-left: 0px !important;
+    }
+/*    .muenUl {
+        list-style: none;
+        text-align: right;
+        position: absolute;
+        right: 0;
+        top: 54px;
+        background-color: white;
+        padding: 6px;
+        display: none; 
+        text-align: center;
+    }
+        .muenUl li {
+            margin-top: 8px;
+        }
+    .lanmuIcon {
+     display:block !important;
+    }*/
+    .hardLog {
+        padding-top: 3px;
+        padding-left: 3px;
+    }
+    .hardLog {
+        width: 26%;
+    }
+
+    .hardLanmu {
+        width: 73%;
+        padding-top: 8px !important;
+    }
+    .pcImg {
+        display: none !important;
+    }
+
+    .mobileImg {
+        display: block !important;
+    }
+    .new--wrapper--padding{
+        padding-top: 1.8rem;
+    }
+    .front .header {
+        height: 194px !important;
+    }
+    #bannerContent {
+     display:none;
+    }
+    .landing-grid--single {
+        margin-top: 215px !important;
+    }
+    .front .header .header__inner-wrapper {
+        display: none;
+        margin-bottom: 9.8em !important;
+    }
+    .region1 {
+        background-color: initial !important;
+    }
+        .region1 h4 {
+            color:white;
+        }
 }
 @media (max-width: 45em) {
     .wechat2 {
@@ -21671,4 +21753,79 @@ body.v5 body.v5 .wrapper-background--translucent, body.v5 .theme-white-transluce
     .mobileImg {
         display:block !important;
     }
+    .footerLog {
+        padding-left: 0px !important;
+    }
+
+    .muenUl {
+        list-style: none;
+        text-align: right;
+        position: absolute;
+        right: 0;
+        top: 54px;
+        background-color: white;
+        padding: 6px;
+        display: none;
+        text-align: center;
+    }
+
+        .muenUl li {
+            margin-top: 8px;
+        }
+
+    .lanmuIcon {
+        display: block !important;
+    }
+
+    .hardLog {
+        padding-top: 3px;
+        padding-left: 3px;
+    }
+
+    .hardLog {
+        width: 36%;
+    }
+
+    .hardLanmu {
+        width: 63%;
+    }
+
+    .new--wrapper--padding {
+        padding-top: 1.8rem;
+    }
+    .section-lower-header__search{
+        height: 0px !important
+    }
+    .firstSectionContent {
+        margin-top: -200px !important;
+    }
+    video {
+        display: none;
+    }
 }
+.muenUl {
+    list-style: none;
+}
+
+    .muenUl li {
+        flex: 1 auto;
+    }
+
+        .muenUl li a {
+            color: black;
+            font-weight: 700;
+        }
+
+            .muenUl li a:hover {
+                color: #a53c3c !important;
+            }
+
+.hardLog {
+    float: left;
+}
+.hardLanmu {
+    float: right;
+    padding-top: 5px;
+    position: relative
+}
+
